@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0%;
+box-sizing: border-box;
+overflow-x: hidden;
+
+}
+.headerHero{
+    background: linear-gradient(216.04deg, #27C0EF 13.84%, #00A8DB 83.53%);
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+nav{
+display: flex;
+gap: 2rem;
+align-items: center;
+}
+.navBar{
+    display: flex;
+    gap: 2rem;
+}
+.navBar li a{
+    font-family: DM Sans;
+    font-size:14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    letter-spacing: 0.300000001992px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
