@@ -36,5 +36,54 @@ align-items: center;
     letter-spacing: 0.300000001992px;
     text-align: center;
     text-decoration: none;
+    border: none;
     color: rgba(255, 255, 255, 1);
+}
+
+select{
+background: none;
+border: none;
+color: #fff;
+
+}
+nav button{
+    background: linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
+    height: 38px;
+    top: 39px;
+    left: 1205px;
+    gap: 0px;
+    border: none;
+    opacity: 0px;
+    ;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-family: DM Sans;
+    font-size:14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    letter-spacing: 0.300000001992px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+.textslide, h1{
+    font-weight: 700;
+font-size: 64px;
+    line-height: 75px;
+    color: #fff;
+    margin-left: 1rem;
+    font-family: DM Sans;
+}
+.textslide p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    font-family: DM Sans;
 }
