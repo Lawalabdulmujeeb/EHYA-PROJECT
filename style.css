@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0%;
 box-sizing: border-box;
@@ -86,4 +86,86 @@ font-size: 64px;
     line-height: 26px;
     color: #fff;
     font-family: DM Sans;
+}
+.checkmark{
+    display: inline-block;
+    width: 25px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.checkmark:after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00A8DB; */
+
+ .brand{ 
+    background-image: url(images/Mask\ Group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+   margin: auto;
+    padding: 5rem;
+    margin-bottom: 5rem;
+    display: flex
+    justify-content: space-between;
+    align-items: center;
+}
+.brandleft{
+    display: flex;
+}
+
+
+footer{
+    background: rgba(8, 19, 21, 1);
+    color: #fff;
+}
+li{
+    list-style-type: none;
+    font-family: DM Sans ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.5px;
+    color: rgba(211, 214, 216, 1);
+    margin-right: 2rem;
+}
+.footWrap{
+    display: flex;
+    width: 85%;
+    margin: auto;
+   
+}
+.footLeft{
+
+
+}
+
+.footRight h4{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.5px;
+    color: rgba(211, 214, 216, 1);
+  margin-bottom: 1.5rem;
+}
+.footLeft p {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(211, 214, 216, 1);
+    padding: 1rem 0;
+    width: 68%;
+}
+.footRight{
+    display: flex;
+    gap: 4rem;
+    width: 60%;
 }
